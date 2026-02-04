@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro'); * {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); * {
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ h1 {
     background: #ddabee;
     color: black;
     text-shadow: none;
-    font-size: 11pt;
+    font-size: 15pt;
     margin: 10pt;
     width: 55ch;
 }
@@ -21,8 +21,8 @@ pre {
     display:flex;
     flex-direction:column;
     
-    font-family: 'Source Code Pro', monospace;
-    font-size: 11pt;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 13pt;
     width: 80ch;
     margin: 2em auto;
     padding: .25em;
