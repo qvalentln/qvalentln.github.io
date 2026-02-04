@@ -1,3 +1,3 @@
 qvalentin about me page 
 
-layout inspired, check comments on index.html for details :))
+took some inspiration for the layout, did some art with the colors tho
