@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro'); * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff2ff;
+    color: #2f2f2f;
+}
+
+h1 {
+    background: #ddabee;
+    color: black;
+    text-shadow: none;
+    font-size: 11pt;
+    margin: 10pt;
+    width: 55ch;
+}
+
+pre {
+    display:flex;
+    flex-direction:column;
+    
+    font-family: 'Source Code Pro', monospace;
+    font-size: 11pt;
+    width: 80ch;
+    margin: 2em auto;
+    padding: .25em;
+    line-height: 0;
+    counter-reset: line;
+
+}
+
+pre span {
+    display: inline;
+    line-height: 1.15rem;
+}
+
+pre span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #aeaeae;
+    width: 3ch;
+    padding: 0 .25em;
+    margin-right: .5em;
+    color: #2f2f2f;
+    text-align: right;
+}
+
+pre div {
+    display: block;
+    line-height: 1.15rem;
+    margin-bottom: 2em;
+    text-shadow: none;
+}
+
+pre a {
+    text-decoration: none;
+    color: #000000;
+}
+
+pre a:hover {
+    color: #6666ff;
+    text-decoration: none;
+}
+
+::selection {
+    background: #daabee;
+    color: black;
+    text-shadow: none;
+}
+
+.subcap {
+    background: #ddabee;
+    color: black;
+    text-shadow: none;
+}
+
+a.subcap:hover {
+    color: black;
+}
+
+a.none:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.small {
+    font-size: 10pt;
+}
