@@ -4,17 +4,15 @@
 }
 
 body {
-    background-color: #fff2ff;
-    color: #2f2f2f;
+    background-color: #0B0E14;
+    color: #7FD962;
 }
-
-h1 {
-    background: #ddabee;
-    color: black;
-    text-shadow: none;
-    font-size: 15pt;
-    margin: 10pt;
-    width: 55ch;
+.qv span:before{
+    display:none;
+}
+.qv{
+    color:#CDA1FA;
+    margin-bottom:0;
 }
 
 pre {
@@ -36,6 +34,7 @@ pre span {
     line-height: 1.15rem;
 }
 
+
 pre span:before {
     counter-increment: line;
     content: counter(line);
@@ -44,7 +43,7 @@ pre span:before {
     width: 3ch;
     padding: 0 .25em;
     margin-right: .5em;
-    color: #2f2f2f;
+    color: #EA6C73;
     text-align: right;
 }
 
@@ -57,11 +56,11 @@ pre div {
 
 pre a {
     text-decoration: none;
-    color: #000000;
+    color: #53BDFA;
 }
 
 pre a:hover {
-    color: #6666ff;
+    color: #90E1C6;
     text-decoration: none;
 }
 
@@ -72,7 +71,7 @@ pre a:hover {
 }
 
 .subcap {
-    background: #ddabee;
+    background: #F9AF4F;
     color: black;
     text-shadow: none;
 }
@@ -81,11 +80,4 @@ a.subcap:hover {
     color: black;
 }
 
-a.none:hover {
-    text-decoration: none;
-    color: #000000;
-}
 
-a.small {
-    font-size: 10pt;
-}
