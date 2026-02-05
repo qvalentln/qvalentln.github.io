@@ -1,3 +1,3 @@
 qvalentin about me page 
 
-took some inspiration for the layout, did some art with the colors tho
+took some inspiration for the layout, but i want to enhance it..
