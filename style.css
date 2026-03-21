@@ -1,3 +1,6 @@
+/*
+        * I know I should not use google fonts because it sucks
+*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); * {
     margin: 0;
     padding: 0;
@@ -7,10 +10,10 @@ body {
     background-color: #0B0E14;
     color: #7FD962;
 }
-.qv span:before{
+.qv-Art span:before{
     display:none;
 }
-.qv{
+.qv-Art{
     color:#CDA1FA;
     margin-bottom:0;
 }
@@ -71,13 +74,13 @@ pre a:hover {
     text-shadow: none;
 }
 
-.subcap {
+.sub-Chap {
     background: #F9AF4F;
     color: black;
     text-shadow: none;
 }
 
-a.subcap:hover {
+a.sub-Chap:hover {
     color: black;
 }
 
